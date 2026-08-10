@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=blue)
+![PDF](https://img.shields.io/badge/PDF-ReportLab-CC0000)
+![Database](https://img.shields.io/badge/Database-SQLite-003B57?logo=sqlite&logoColor=white)
+![License](https://img.shields.io/badge/License-Apache--2.0-D22128?logo=apache&logoColor=orange)
+
 # Kakuro Generator
 
 Generate **unique-solution Kakuro puzzles**, store them in SQLite and export print-ready PDF booklets with compact solution pages.
