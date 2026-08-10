@@ -1,0 +1,48 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.tox/
+.nox/
+.coverage*
+htmlcov/
+
+# Packaging / build artifacts
+.build/
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment / local configuration
+.env
+.env.*
+
+# Generated Kakuro artifacts
+*.pdf
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+output/
+logs/
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local archive
+Archive/

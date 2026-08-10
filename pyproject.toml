@@ -1,0 +1,14 @@
+[project]
+name = "kakuro-generator"
+version = "1.0.0"
+description = "General-purpose Kakuro generator with SQLite storage and PDF export."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["reportlab>=4.2.2"]
+
+[project.scripts]
+kakuro-generator = "kakuro_generator.cli:main"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+pythonpath = ["src"]
