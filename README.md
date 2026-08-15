@@ -50,13 +50,13 @@ The package installs the `kakuro-generator` command-line entry point.
 Generate a single medium puzzle:
 
 ```bash
-kakuro-generator --pages 1 --difficulty medium --seed 19930316
+kakuro-generator --pages 1 --difficulty medium --seed 20260815
 ```
 
 Generate puzzles into SQLite without creating a PDF:
 
 ```bash
-kakuro-generator --easy 8 --size 8 --workers 2 --seed 19930316 --db puzzles.db --no-pdf
+kakuro-generator --easy 8 --size 8 --workers 2 --seed 20260815 --db puzzles.db --no-pdf
 ```
 
 ## Mixed-Difficulty Booklet
@@ -66,7 +66,7 @@ Puzzle counts and sizes can be configured independently for each difficulty.
 ### Windows / Anaconda Prompt
 
 ```bash
-kakuro-generator --easy 8 --easy-size 8 --medium 8 --medium-size 9 --hard 8 --hard-size 10 --evil 8 --evil-size 10 --workers 2 --seed 19930316 --db puzzles.db --outfile kakuro_booklet.pdf
+kakuro-generator --easy 8 --easy-size 8 --medium 8 --medium-size 9 --hard 8 --hard-size 10 --evil 8 --evil-size 10 --workers 2 --seed 20260815 --db puzzles.db --outfile kakuro_booklet.pdf
 ```
 
 This generates one 32-puzzle booklet containing:
@@ -87,7 +87,7 @@ kakuro-generator \
   --hard 8 --hard-size 10 \
   --evil 8 --evil-size 10 \
   --workers 2 \
-  --seed 19930316 \
+  --seed 20260815 \
   --db puzzles.db \
   --outfile kakuro_booklet.pdf
 ```
@@ -156,7 +156,7 @@ Here Easy uses 8×8, Medium uses 9×9 and any other requested difficulty falls b
 Use `--seed` to initialize the master random generator:
 
 ```bash
-kakuro-generator --easy 8 --size 8 --seed 19930316
+kakuro-generator --easy 8 --size 8 --seed 20260815 
 ```
 
 Each requested puzzle receives a derived child seed.
